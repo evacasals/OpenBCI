@@ -1,0 +1,115 @@
+{
+  "brainFlowFilter": "BANDSTOP",
+  "filterChannelSelect": "ALL_CHANNELS",
+  "globalEnvFilter": "NONE",
+  "masterBandStopFilterActive": "OFF",
+  "masterBandStopStartFreq": 0.0,
+  "masterBandStopStopFreq": 0.0,
+  "masterBandStopFilterType": "BUTTERWORTH",
+  "masterBandStopFilterOrder": "FOUR",
+  "bandStopFilterActive": [
+    "OFF",
+    "OFF",
+    "OFF",
+    "OFF",
+    "OFF",
+    "OFF",
+    "OFF",
+    "OFF"
+  ],
+  "bandStopStartFreq": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "bandStopStopFreq": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "bandStopFilterType": [
+    "BUTTERWORTH",
+    "BUTTERWORTH",
+    "BUTTERWORTH",
+    "BUTTERWORTH",
+    "BUTTERWORTH",
+    "BUTTERWORTH",
+    "BUTTERWORTH",
+    "BUTTERWORTH"
+  ],
+  "bandStopFilterOrder": [
+    "FOUR",
+    "FOUR",
+    "FOUR",
+    "FOUR",
+    "FOUR",
+    "FOUR",
+    "FOUR",
+    "FOUR"
+  ],
+  "masterBandPassFilterActive": "ON",
+  "masterBandPassStartFreq": 0.0,
+  "masterBandPassStopFreq": 0.0,
+  "masterBandPassFilterType": "BUTTERWORTH",
+  "masterBandPassFilterOrder": "FOUR",
+  "bandPassFilterActive": [
+    "ON",
+    "ON",
+    "ON",
+    "ON",
+    "ON",
+    "ON",
+    "ON",
+    "ON"
+  ],
+  "bandPassStartFreq": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "bandPassStopFreq": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "bandPassFilterType": [
+    "BUTTERWORTH",
+    "BUTTERWORTH",
+    "BUTTERWORTH",
+    "BUTTERWORTH",
+    "BUTTERWORTH",
+    "BUTTERWORTH",
+    "BUTTERWORTH",
+    "BUTTERWORTH"
+  ],
+  "bandPassFilterOrder": [
+    "FOUR",
+    "FOUR",
+    "FOUR",
+    "FOUR",
+    "FOUR",
+    "FOUR",
+    "FOUR",
+    "FOUR"
+  ]
+}

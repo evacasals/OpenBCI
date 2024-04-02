@@ -1,0 +1,92 @@
+{
+  "powerDown": [
+    "ON",
+    "OFF",
+    "OFF",
+    "OFF",
+    "OFF",
+    "OFF",
+    "OFF",
+    "OFF"
+  ],
+  "gain": [
+    "X1",
+    "X24",
+    "X24",
+    "X24",
+    "X24",
+    "X24",
+    "X24",
+    "X24"
+  ],
+  "inputType": [
+    "NORMAL",
+    "SHORTED",
+    "SHORTED",
+    "SHORTED",
+    "SHORTED",
+    "SHORTED",
+    "SHORTED",
+    "SHORTED"
+  ],
+  "bias": [
+    "NO_INCLUDE",
+    "NO_INCLUDE",
+    "NO_INCLUDE",
+    "NO_INCLUDE",
+    "NO_INCLUDE",
+    "NO_INCLUDE",
+    "NO_INCLUDE",
+    "NO_INCLUDE"
+  ],
+  "srb2": [
+    "DISCONNECT",
+    "DISCONNECT",
+    "DISCONNECT",
+    "DISCONNECT",
+    "DISCONNECT",
+    "DISCONNECT",
+    "DISCONNECT",
+    "DISCONNECT"
+  ],
+  "srb1": [
+    "CONNECT",
+    "DISCONNECT",
+    "DISCONNECT",
+    "DISCONNECT",
+    "DISCONNECT",
+    "DISCONNECT",
+    "DISCONNECT",
+    "DISCONNECT"
+  ],
+  "previousBias": [
+    "INCLUDE",
+    "INCLUDE",
+    "INCLUDE",
+    "INCLUDE",
+    "INCLUDE",
+    "INCLUDE",
+    "INCLUDE",
+    "INCLUDE"
+  ],
+  "previousSrb2": [
+    "CONNECT",
+    "CONNECT",
+    "CONNECT",
+    "CONNECT",
+    "CONNECT",
+    "CONNECT",
+    "CONNECT",
+    "CONNECT"
+  ],
+  "previousInputType": [
+    "NORMAL",
+    "NORMAL",
+    "NORMAL",
+    "NORMAL",
+    "NORMAL",
+    "NORMAL",
+    "NORMAL",
+    "NORMAL"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "powerDown": [
+    "ON",
+    "ON",
+    "ON",
+    "ON",
+    "ON",
+    "ON",
+    "ON",
+    "ON"
+  ],
+  "gain": [
+    "X1",
+    "X1",
+    "X1",
+    "X1",
+    "X1",
+    "X1",
+    "X1",
+    "X1"
+  ],
+  "inputType": [
+    "NORMAL",
+    "NORMAL",
+    "NORMAL",
+    "NORMAL",
+    "NORMAL",
+    "NORMAL",
+    "NORMAL",
+    "NORMAL"
+  ],
+  "bias": [
+    "NO_INCLUDE",
+    "NO_INCLUDE",
+    "NO_INCLUDE",
+    "NO_INCLUDE",
+    "NO_INCLUDE",
+    "NO_INCLUDE",
+    "NO_INCLUDE",
+    "NO_INCLUDE"
+  ],
+  "srb2": [
+    "DISCONNECT",
+    "DISCONNECT",
+    "DISCONNECT",
+    "DISCONNECT",
+    "DISCONNECT",
+    "DISCONNECT",
+    "DISCONNECT",
+    "DISCONNECT"
+  ],
+  "srb1": [
+    "CONNECT",
+    "CONNECT",
+    "CONNECT",
+    "CONNECT",
+    "CONNECT",
+    "CONNECT",
+    "CONNECT",
+    "CONNECT"
+  ],
+  "previousBias": [
+    "INCLUDE",
+    "INCLUDE",
+    "INCLUDE",
+    "INCLUDE",
+    "INCLUDE",
+    "INCLUDE",
+    "INCLUDE",
+    "INCLUDE"
+  ],
+  "previousSrb2": [
+    "CONNECT",
+    "CONNECT",
+    "CONNECT",
+    "CONNECT",
+    "CONNECT",
+    "CONNECT",
+    "CONNECT",
+    "CONNECT"
+  ],
+  "previousInputType": [
+    "NORMAL",
+    "NORMAL",
+    "NORMAL",
+    "NORMAL",
+    "NORMAL",
+    "NORMAL",
+    "NORMAL",
+    "NORMAL"
+  ]
+}
