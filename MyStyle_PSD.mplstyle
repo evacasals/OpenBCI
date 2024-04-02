@@ -1,0 +1,10 @@
+xtick.labelsize : small
+ytick.labelsize : small
+legend.frameon : True
+legend.loc : Best
+axes.grid: True
+
+axes.spines.left   : True
+axes.spines.bottom : True
+axes.spines.top    : True
+axes.spines.right  : True
