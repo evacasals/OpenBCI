@@ -1,4 +1,3 @@
-
 import pandas as pd
 from matplotlib import pyplot as plt
 from neo.core import AnalogSignal
@@ -6,6 +5,7 @@ from scipy import signal
 import numpy as np
 import quantities as pq
 from PhyREC import SignalProcess as Spro
+
 
 def read_file_oBCI(FileIn, colors=None):
     CMD_nChannels = '%Number of channels'
@@ -37,6 +37,22 @@ def read_file_oBCI(FileIn, colors=None):
                            name=c)
         if colors is not None:
             sig.annotate(color=colors[ic])
+        Sigs.append(sig)
+    return Sigs
+
+# %%
+def read_excel(FileIn):
+    Fs = 10000 * pq.Hz
+    Sigs = []
+    data = pd.read_csv(FileIn, sep=';', decimal=',')
+    for c in data.columns[1:-1]:
+        print(c)
+        sig = AnalogSignal(data[c],
+                           units='uV',
+                           sampling_rate=Fs,
+                           name=f'{c}'
+                           )
+
         Sigs.append(sig)
     return Sigs
 # %% FFT
@@ -79,6 +95,16 @@ def GenSlots(SigsPl, Procs):
             sp.name = sp.name + ' ' + proc['SigSufix']
             sp.annotations.update(proc)
             SlotsPl.append(proc['SlotFunc'](sp,
-                                          Ax=axp,
-                                          **fkwarg))
+                                            Ax=axp,
+                                            **fkwarg))
     return SlotsPl, Figplot, Axs
+
+
+# %%
+def mean(signals, name):
+    for signal in signals:
+        result = AnalogSignal(np.mean(np.array(signals), axis=0),
+                          units='uV',
+                          sampling_rate=1000* pq.Hz,
+                          name='mean'+f'{name}')
+    return result
