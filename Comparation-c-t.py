@@ -11,8 +11,8 @@ mpl.use('Qt5Agg')
 plt.close('all')
 
 FilePath = ('simulation')
-FilesIn = ['bias.csv',
-           'nobias.csv']
+FilesIn = ['bias-cyton.csv',
+           'bias-texas.csv']
 colors= ('blue', 'red', 'green', 'yellow', 'purple')
 signals = {}
 for File in FilesIn:

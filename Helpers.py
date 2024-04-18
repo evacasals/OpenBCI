@@ -42,8 +42,8 @@ def read_file_oBCI(FileIn, colors=None):
 
 # %%
 def read_excel(FileIn):
-    Fs = 10000 * pq.Hz
     Sigs = []
+    Fs=100000 * pq.Hz
     data = pd.read_csv(FileIn, sep=';', decimal=',')
     for c in data.columns[1:-1]:
         print(c)
