@@ -11,8 +11,8 @@ mpl.use('Qt5Agg')
 plt.close('all')
 
 FilePath = ('simulation')
-FilesIn = ['bias-cyton.csv',
-           'bias-texas.csv']
+FilesIn = ['cyton.csv',
+           'texas.csv']
 colors= ('blue', 'red', 'green', 'yellow', 'purple')
 signals = {}
 for File in FilesIn:
@@ -29,7 +29,7 @@ for i, simulations in enumerate(signals):
     linestyle = line[i]
     for j, sig in enumerate(signals[simulations]):
         color = colors[j]
-        plot_spectral_density(sig,
+        plot_spectral_density(sig.rescale('uV'),
                               ax=ax,
                               color=color,
                               label=f' {sig.name[3:-2]} ({simulations})',
@@ -37,16 +37,18 @@ for i, simulations in enumerate(signals):
                               linestyle=linestyle
                               )
         ax.set_xlim(0, 160)
+        ax.set_ylim(10**-11, 10**12)
 
-        ax.grid()
-        ax.legend(loc='best', ncol=2)
+        ax.legend(loc='best', fontsize=14)
         ax.set_xlabel('Frequency [Hz]',  fontsize=14)
-        ax.set_ylabel('(PSD $\mu$V$^2$/Hz)',  fontsize=14)
-
+        ax.set_ylabel('PSD ($\mu$V$^2$/Hz)',  fontsize=14)
+ax.grid()
 ax.axvline(x=110, color='black', linestyle='--', label='110 Hz', alpha=0.7)
 ax.axvline(x=50, color='black', linestyle='--', label='50 Hz', alpha=0.7)
 ax.tick_params(axis='both', which='major', labelsize=12)
 ax.text(113, ax.get_ylim()[1]*0.9, '110 Hz', color='black', fontsize=12, ha='left', va='top')
 ax.text(53, ax.get_ylim()[1]*0.9, '50 Hz', color='black', fontsize=12, ha='left', va='top')
-fig.suptitle('Comparison of bias signal application and non-application', fontsize=20, fontweight='bold')
+fig.suptitle('Comparison of bias between Texas structure and Cyton structure', fontsize=20, fontweight='bold')
+
+
 

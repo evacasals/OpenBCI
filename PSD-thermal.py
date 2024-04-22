@@ -87,7 +87,7 @@ for i, experiment in enumerate(signals2):
 
         ax.set_xlim(0, 500)
         ax.set_xlabel('Frequency (Hz)', fontsize=14)
-        ax.set_ylabel('Power/Frequency Density (dB/Hz)', fontsize=14)
+        ax.set_ylabel('PSD ($\mu$V$^2$/Hz)',  fontsize=14)
         ax.tick_params(axis='both', which='major', labelsize=12)
         ax.legend(loc='upper right', fontsize=12)
         ax.grid(True)

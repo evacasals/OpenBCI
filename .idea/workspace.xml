@@ -5,15 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2cff840-1ecf-4237-bcbd-67c5461651c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Comparationb-nb-c.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PSD-alias.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PSD-thermal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PSD-white.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simulation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Validation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modeling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/raw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simulation/texas.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/OpenBCI_electronics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OpenBCI_electronics.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Comparation-c-t.py" beforeDir="false" afterPath="$PROJECT_DIR$/Comparation-c-t.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Comparationb-nb-c.py" beforeDir="false" afterPath="$PROJECT_DIR$/Comparationb-nb-c.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Helpers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PSD.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PSD-alias.py" beforeDir="false" afterPath="$PROJECT_DIR$/PSD-alias.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PSD-thermal.py" beforeDir="false" afterPath="$PROJECT_DIR$/PSD-thermal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PSD-white.py" beforeDir="false" afterPath="$PROJECT_DIR$/PSD-white.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/experiments/data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/data.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simulation/bias-cyton.csv" beforeDir="false" afterPath="$PROJECT_DIR$/simulation/cyton.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simulation/bias-texas.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simulation/bias.csv" beforeDir="false" afterPath="$PROJECT_DIR$/simulation/bias.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,28 +63,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Helpers.executor": "Run",
-    "Python.PSD.executor": "Run",
-    "Python.Simulation.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Eva/OneDrive/Documents/GitHub/OpenBCI",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Helpers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PSD.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Simulation.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ECasals/Documents/GitHub/OpenBCI&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Eva\OneDrive\Documents\GitHub\OpenBCI" />
       <recent name="C:\Users\ECasals\Documents\GitHub\OpenBCI" />
+      <recent name="C:\Users\Eva\OneDrive\Documents\GitHub\OpenBCI" />
     </key>
   </component>
   <component name="RunManager">
@@ -240,8 +249,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241" />
-        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
+        <option value="bundled-python-sdk-5a2391486177-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13763.11" />
       </set>
     </attachedChunks>
   </component>
@@ -285,6 +293,11 @@
       <workItem from="1713420706991" duration="153000" />
       <workItem from="1713420900202" duration="214000" />
       <workItem from="1713421130668" duration="1178000" />
+      <workItem from="1713430647816" duration="1008000" />
+      <workItem from="1713431675188" duration="7017000" />
+      <workItem from="1713441417520" duration="223000" />
+      <workItem from="1713777962790" duration="3133000" />
+      <workItem from="1713781308867" duration="2131000" />
     </task>
     <servers />
   </component>

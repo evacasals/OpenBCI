@@ -48,7 +48,7 @@ def read_excel(FileIn):
     for c in data.columns[1:-1]:
         print(c)
         sig = AnalogSignal(data[c],
-                           units='uV',
+                           units='V',
                            sampling_rate=Fs,
                            name=f'{c}'
                            )

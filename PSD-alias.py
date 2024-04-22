@@ -86,14 +86,14 @@ for i, experiment in enumerate(signals2):
 
         ax.set_xlim(0, 500)
         ax.set_xlabel('Frequency (Hz)', fontsize=14)
-        ax.set_ylabel('Power/Frequency Density (dB/Hz)', fontsize=14)
+        ax.set_ylabel('PSD ($\mu$V$^2$/Hz)',  fontsize=14)
         ax.tick_params(axis='both', which='major', labelsize=12)
         ax.legend(loc='upper right', fontsize=12)
         ax.grid(True)
 fig.suptitle('Input-Referred Noise in Normal Mode, PGA GAIN = 1', fontsize=20, fontweight='bold')
-ax.axvline(x=262, color='red', linestyle='--', label='262 Hz')
-ax.axvline(x=65.5, color='blue', linestyle='--', label='65 Hz')
-ax.text(262, ax.get_ylim()[1]*0.9, '262 Hz', color='red', fontsize=12, ha='left', va='top')
-ax.text(65.5, ax.get_ylim()[1]*0.9, '65 Hz', color='blue', fontsize=12, ha='left', va='top')
+ax.axvline(x=262, color='black', linestyle='--', label='262 Hz')
+ax.axvline(x=65.5, color='black', linestyle='--', label='65 Hz')
+ax.text(265, ax.get_ylim()[1]*0.9, '262 Hz', color='black', fontsize=12, ha='left', va='top')
+ax.text(68.5, ax.get_ylim()[1]*0.9, '65 Hz', color='black', fontsize=12, ha='left', va='top')
 
 

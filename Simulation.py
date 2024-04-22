@@ -20,14 +20,14 @@ for File in FilesIn:
     signals[name] = signal_data
 
 #%%
-for simulations in signals:
-    diff = signals[simulations][2] - signals[simulations][2]
-    sig = AnalogSignal(diff,
-                       units='uV',
-                       sampling_rate=10000 * pq.Hz,
-                       name='diff'
-                       )
-    signals[simulations].append(sig)
+# for simulations in signals:
+#     diff = signals[simulations][2] - signals[simulations][2]
+#     sig = AnalogSignal(diff,
+#                        units='uV',
+#                        sampling_rate=10000 * pq.Hz,
+#                        name='diff'
+#                        )
+#     signals[simulations].append(sig)
 #%% Plot Signals
 fig, ax = plt.subplots(1, 1, sharex=True, sharey=True)
 #
