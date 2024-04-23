@@ -15,16 +15,14 @@ plt.close('all')
 
 colors= plt.cm.tab10.colors
 
-excel = pd.read_excel('experiments\\data.xlsx', sheet_name='experiments')
+excel = pd.read_excel('experiments/data.xlsx', sheet_name='experiments')
 file_label = dict(zip(excel['name'], excel['label']))
 
 #%%
 # Load OpenBCI Files
 FilePath = 'experiments'
-FilesIn = ['20240422_5.txt',
-           '20240422_6.txt',
-           '20240422_7.txt',
-           '20240422_8.txt'
+FilesIn = ['20240423_2.txt',
+           '20240423_3.txt'
            ]
 signals = {}
 for File in FilesIn:
@@ -34,6 +32,8 @@ for File in FilesIn:
     signals[name] = signal_data
 for sig in signals:
     signals[sig] = [signals[sig][i] for i in [0]]
+
+
 #%%Figure
 ig, ax = plt.subplots(1, 1, sharex=True, sharey=True)
 for i, experiment in enumerate(signals):

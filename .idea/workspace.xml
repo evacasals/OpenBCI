@@ -5,24 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2cff840-1ecf-4237-bcbd-67c5461651c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Validation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modeling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/raw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simulation/texas.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/OpenBCI_electronics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OpenBCI_electronics.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Comparation-c-t.py" beforeDir="false" afterPath="$PROJECT_DIR$/Comparation-c-t.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Comparationb-nb-c.py" beforeDir="false" afterPath="$PROJECT_DIR$/Comparationb-nb-c.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Helpers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PSD-alias.py" beforeDir="false" afterPath="$PROJECT_DIR$/PSD-alias.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PSD-thermal.py" beforeDir="false" afterPath="$PROJECT_DIR$/PSD-thermal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PSD-white.py" beforeDir="false" afterPath="$PROJECT_DIR$/PSD-white.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/experiments/data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/data.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simulation/bias-cyton.csv" beforeDir="false" afterPath="$PROJECT_DIR$/simulation/cyton.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simulation/bias-texas.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simulation/bias.csv" beforeDir="false" afterPath="$PROJECT_DIR$/simulation/bias.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modeling.py" beforeDir="false" afterPath="$PROJECT_DIR$/modeling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raw.py" beforeDir="false" afterPath="$PROJECT_DIR$/raw.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -298,6 +284,7 @@
       <workItem from="1713441417520" duration="223000" />
       <workItem from="1713777962790" duration="3133000" />
       <workItem from="1713781308867" duration="2131000" />
+      <workItem from="1713863206163" duration="5893000" />
     </task>
     <servers />
   </component>

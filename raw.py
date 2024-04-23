@@ -9,28 +9,28 @@ colors = plt.cm.tab10.colors
 plt.style.use('MyStyle.mplstyle')
 mpl.use('Qt5Agg')
 #
-excel = pd.read_excel('experiments\\data.xlsx', sheet_name='experiments')
+excel = pd.read_excel('experiments/data.xlsx', sheet_name='experiments')
 file_label = dict(zip(excel['name'], excel['label']))
-FileIn = 'experiments/20240422_1.txt'
+FileIn = 'experiments/20240423_4.txt'
 
 Sigs = read_file_oBCI(FileIn,
                       colors=colors)
-Sigs_ECG = [Sigs[i] for i in [0, 1]]
+Sigs_ECG = [Sigs[i] for i in [0, 1, 2]]
 #%% Filters
 NonFilt = [{'function': Spro.Filter, 'args': {'Type': 'highpass',
                                                        'Order': 4,
                                                        'Freqs': (1,)}}, ]
 Filt50 = [
           # {'function': Spro.SetZero, 'args': {'TWind': (5 * pq.s, 6* pq.s)}},
-          {'function': Spro.Filter, 'args': {'Type': 'bandstop',
-                                             'Order': 4,
-                                             'Freqs': (49.5, 50)}},
+          # {'function': Spro.Filter, 'args': {'Type': 'bandstop',
+          #                                    'Order': 4,
+          #                                    'Freqs': (49.5, 50)}},
           ]
 
 
 # Axes properties
 Ax50 = {
-    'ylim': (-0.2, 0.2),
+    'ylim': (-1, 1),
     'facecolor': '#FFFFFF00',
     'autoscaley_on': True,
     'xaxis': {'visible': False,
@@ -41,7 +41,7 @@ Ax50 = {
 AxNoFilt = {
     'ylim': (-0.2, 0.2),
     'facecolor': '#FFFFFF00',
-    'autoscaley_on': False,
+    'autoscaley_on': True,
     'xaxis': {'visible': False,
               },
     'yaxis': {'visible': True,
@@ -79,7 +79,7 @@ SlotsECG, Fig, AxsNoFilt = GenSlots(Sigs_ECG, Procs)
 
 #%%
 SpltECG = Rplt.PlotSlots(SlotsECG,
-                         Fig=FigECG,
+                         Fig=Fig,
                          LiveControl=True,
                          TimeAxis=-1,
                          )
