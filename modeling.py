@@ -22,6 +22,7 @@ file_label = dict(zip(excel['name'], excel['label']))
 # Load OpenBCI Files
 FilePath = 'experiments'
 FilesIn = ['20240423_2.txt',
+           '20240424_1.txt',
            '20240423_3.txt'
            ]
 signals = {}

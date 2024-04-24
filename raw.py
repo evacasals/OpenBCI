@@ -11,11 +11,11 @@ mpl.use('Qt5Agg')
 #
 excel = pd.read_excel('experiments/data.xlsx', sheet_name='experiments')
 file_label = dict(zip(excel['name'], excel['label']))
-FileIn = 'experiments/20240423_4.txt'
+FileIn = 'experiments/20240424_2.txt'
 
 Sigs = read_file_oBCI(FileIn,
                       colors=colors)
-Sigs_ECG = [Sigs[i] for i in [0, 1, 2]]
+Sigs_ECG = [Sigs[i] for i in [0, 2]]
 #%% Filters
 NonFilt = [{'function': Spro.Filter, 'args': {'Type': 'highpass',
                                                        'Order': 4,
