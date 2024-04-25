@@ -17,13 +17,16 @@ colors= plt.cm.tab10.colors
 
 excel = pd.read_excel('experiments/data.xlsx', sheet_name='experiments')
 file_label = dict(zip(excel['name'], excel['label']))
-
+#%% Noise
+Vpp = 1*pq.uV
+f=70*pq.Hz
+rms = Vpp/(2*math.sqrt(2))
+noise_psd = (rms**2)/f
 #%%
 # Load OpenBCI Files
 FilePath = 'experiments'
-FilesIn = ['20240423_2.txt',
-           '20240424_1.txt',
-           '20240423_3.txt'
+FilesIn = ['20240423_5.txt',
+           '20240423_6.txt'
            ]
 signals = {}
 for File in FilesIn:
@@ -36,18 +39,23 @@ for sig in signals:
 
 
 #%%Figure
-ig, ax = plt.subplots(1, 1, sharex=True, sharey=True)
+fig, ax = plt.subplots(1, 1, sharex=True, sharey=True)
 for i, experiment in enumerate(signals):
     for j, sig in enumerate(signals[experiment]):
         plot_spectral_density(sig,
                               ax=ax,
                               label=file_label[experiment],
-                              alpha = 0.8
+                              alpha = 0.8,
+                              time=(80*pq.s, 200*pq.s)
                               )
-        ax.set_title(f'Channel {j + 1}', fontsize=16)
+
 
         ax.set_xlim(0, 70)
         ax.set_ylim(10**-11, 10**12)
         ax.legend(loc='best', fontsize=14)
         ax.set_xlabel('Frequency [Hz]', fontsize=14)
         ax.set_ylabel('PSD ($\mu$V$^2$/Hz)', fontsize=14)
+ax.grid()
+ax.axhline(y=noise_psd, color='r', linestyle='--', label='Noise Level')
+ax.text(70.5, noise_psd, 'Input Referred Noise', color='r', fontsize=12, verticalalignment='center', horizontalalignment='left', rotation=90)
+fig.suptitle('Comparison of bias signal application and non-application', fontsize=20, fontweight='bold')

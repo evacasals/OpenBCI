@@ -11,7 +11,7 @@ mpl.use('Qt5Agg')
 #
 excel = pd.read_excel('experiments/data.xlsx', sheet_name='experiments')
 file_label = dict(zip(excel['name'], excel['label']))
-FileIn = 'experiments/20240424_2.txt'
+FileIn = 'experiments/20240423_6.txt'
 
 Sigs = read_file_oBCI(FileIn,
                       colors=colors)
@@ -85,3 +85,7 @@ SpltECG = Rplt.PlotSlots(SlotsECG,
                          )
 
 SpltECG.PlotChannels(Time=(5*pq.s, None))
+AxsNoFilt[0].set_xlabel('Time [s]', fontsize=14)
+AxsNoFilt[0].set_ylabel('Voltage [mV]', fontsize=14)
+AxsNoFilt[1].set_ylabel('Voltage [mV]', fontsize=14)
+fig.suptitle('No Bias and GND')
