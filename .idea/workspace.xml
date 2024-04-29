@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2cff840-1ecf-4237-bcbd-67c5461651c2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lead-off-noise.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PSD-alias.py" beforeDir="false" afterPath="$PROJECT_DIR$/PSD-alias.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PSD-white.py" beforeDir="false" afterPath="$PROJECT_DIR$/PSD-white.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/data.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modeling.py" beforeDir="false" afterPath="$PROJECT_DIR$/modeling.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,24 +51,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Helpers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.PSD.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Simulation.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ECasals/Documents/GitHub/OpenBCI&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Helpers.executor": "Run",
+    "Python.PSD-white.executor": "Run",
+    "Python.PSD.executor": "Run",
+    "Python.Simulation.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/ECasals/Documents/GitHub/OpenBCI",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ECasals\Documents\GitHub\OpenBCI" />
@@ -284,6 +290,7 @@
       <workItem from="1713863206163" duration="5893000" />
       <workItem from="1713941774006" duration="3134000" />
       <workItem from="1714028005335" duration="5136000" />
+      <workItem from="1714373729542" duration="10905000" />
     </task>
     <servers />
   </component>
@@ -318,5 +325,6 @@
     <SUITE FILE_PATH="coverage/OpenBCI$Simulation.coverage" NAME="Simulation Coverage Results" MODIFIED="1713173040050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/OpenBCI$PSD.coverage" NAME="PSD Coverage Results" MODIFIED="1712744356951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/OpenBCI$Helpers.coverage" NAME="Helpers Coverage Results" MODIFIED="1713173677115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/OpenBCI$PSD_white.coverage" NAME="PSD-white Coverage Results" MODIFIED="1714383077140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
