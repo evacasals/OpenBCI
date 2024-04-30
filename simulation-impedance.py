@@ -7,7 +7,7 @@ import os
 colors=['blue', 'red', 'green']
 plt.style.use('MyStyle.mplstyle')
 mpl.use('Qt5Agg')
-plt.close('all')
+# plt.close('all')
 
 FilePath = ('simulation-impedance')
 FilesIn = ['bias_resistor.csv',

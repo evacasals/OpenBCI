@@ -5,65 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2cff840-1ecf-4237-bcbd-67c5461651c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/analysis_ECS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/230713/130723.exp1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/230713/130723.exp2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/230713/130723.exp3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/230713/130723.exp4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/230713/130723.exp5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/230713/130723.exp6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/230713/130723.exp7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/230713/130723.exp8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/230713/INFORMATION.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/230713/soroll del ADS1299.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/230714/140723.exp1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/230714/140723.exp2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/230714/140723.exp3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/230714/140723.exp4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/230714/INFORMATION.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/231123/231123.exp1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/231123/231123.exp2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/231123/231123.exp3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/231123/231123.exp4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/231123/INFORMATION.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/240122/240122.exp1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/240122/240122.exp2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/240122/240122.exp3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/240122/INFORMATION.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/240123/Tattoo/RCP_R1.rcp.bson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/240123/Tattoo/RCP_R2.rcp.bson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/240123/Tattoo/Resting_Blinks+Yaw.rec.bson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/240123/Tattoo/Resting_EC.rec.bson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/240123/Tattoo/Resting_EO+Blinks+Yaw+Movement_EC.rec.bson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/240123/Tattoo/old/BASALES/01-06-2022_121619_FRONT_EO.rec.bson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/240123/Tattoo/old/BASALES/01-06-2022_121842_FRONT_EC.rec.bson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/240123/Tattoo/old/BASALES/01-06-2022_132105_TEMP_EO.rec.bson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/240123/Tattoo/old/BASALES/01-06-2022_132433_TEMP_EC.rec.bson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/240123/Tattoo/old/BASALES/01-06-2022_153843_FRONT_EC_CARB.rec.bson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/240123/Tattoo/old/BASALES/01-06-2022_153843_FRONT_EO_CARB.rec.bson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/240123/Tattoo/old/ERP/01-06-2022_122251_FRONT.rcp.bson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/240123/Tattoo/old/ERP/01-06-2022_124406_FRONT.rcp.bson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/240123/Tattoo/old/ERP/01-06-2022_132949_TEMP.rcp.bson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/240123/Tattoo/old/ERP/01-06-2022_154719_FRONT_CARB.rcp.bson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/240123/Tattoo/old/ERP/01-06-2022_155419_FRONT_CARB.rcp.bson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/240123/Tattoo/test.odd.bson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/240123/gTEC/RCP_R1.rcp.bson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/240123/gTEC/RCP_R2.rcp.bson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/240123/gTEC/Resting_EO+Blinks+Yaw+Movement_EC.rec.bson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/240123/gTEC/test.odd.bson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/measure-sim-resistor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resistences/2200_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resistences/2200_ohms.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resistences/330_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resistences/330_ohms.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resistences/47_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resistences/47_ohms.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resistences/Helpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resistences/measure_resistence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simulacio_ADS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simulation-impedance.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lead-off-noise.py" beforeDir="false" afterPath="$PROJECT_DIR$/lead-off-noise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simulation-impedance.py" beforeDir="false" afterPath="$PROJECT_DIR$/simulation-impedance.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -345,7 +288,7 @@
       <workItem from="1714028005335" duration="5136000" />
       <workItem from="1714373729542" duration="10905000" />
       <workItem from="1714459869506" duration="6258000" />
-      <workItem from="1714470726012" duration="4580000" />
+      <workItem from="1714470726012" duration="5378000" />
     </task>
     <servers />
   </component>
