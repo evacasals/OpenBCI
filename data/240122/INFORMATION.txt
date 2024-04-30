@@ -1,0 +1,7 @@
+EXPERIMENT FET EL DIA 22-01-24
+la carpeta consta de 3 gravacions per analitzar les senyals d'EEG amb un tatto de 8 electrodes.
+referencia igual per tots i bias connectat. Posició-Front
+
+	- 231123.exp1 mesura protocol
+	- 231123.exp2 mesura protocol + impedance measurament
+	- 231123.exp3 impedance measurament
