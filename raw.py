@@ -11,7 +11,7 @@ mpl.use('Qt5Agg')
 #
 excel = pd.read_excel('experiments/data.xlsx', sheet_name='experiments')
 file_label = dict(zip(excel['name'], excel['label']))
-FileIn = 'experiments/20240423_6.txt'
+FileIn = 'experiments/20240429_3.txt'
 
 Sigs = read_file_oBCI(FileIn,
                       colors=colors)

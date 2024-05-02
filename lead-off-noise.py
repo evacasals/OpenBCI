@@ -13,7 +13,7 @@ plt.style.use('MyStyle.mplstyle')
 mpl.use('Qt5Agg')
 plt.close('all')
 
-colors= ['blue', 'red', 'green']
+colors= ['red', 'blue', 'green', 'orange', 'purple']
 
 excel = pd.read_excel('experiments\\data.xlsx', sheet_name='experiments')
 file_label = dict(zip(excel['name'], excel['label']))
@@ -25,9 +25,11 @@ noise_psd = (rms**2)/BW
 # Load OpenBCI Files
 FilePath = 'experiments'
 FilesIn = ['20240429_3.txt',
-           '20240429_4.txt',
-           '20240429_5.txt'
-           ]
+           '20240423_2.txt',
+           '20240502_1.txt',
+           '20240423_3.txt',
+           '20240502_2.txt']
+
 signals = {}
 for File in FilesIn:
     file_path = os.path.join(FilePath, File)
